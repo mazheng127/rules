@@ -4,11 +4,6 @@
 [Script]
 # 京东系列
 京东多合一签到 = type=cron,cronexp=0 1 */12 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-爱奇艺 = type=cron,cronexp=0 9 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-吾爱破解 = type=cron,cronexp=0 8 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
-百度签到 = type=cron,cronexp=1 0 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
-哔哩哔哩 = type=cron,cronexp=1 0 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js
-哔哩哔哩兑换 = type=cron,cronexp=30 1 8 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js
 京东抽奖机 = type=cron,cronexp=11 1 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js
 京东赚赚 = type=cron,cronexp=0 9 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.js
 京东赚京豆 = type=cron,cronexp=10 7 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_syj.js
@@ -35,6 +30,12 @@
 京东健康社区收能量0301版 = type=cron,cronexp=5-45/20 * * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_health_collect.js
 京东幸运大转盘0301版 = type=cron,cronexp=4 10 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_market_lottery.js
 京东特权值 = type=cron,cronexp=5 8 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js
+#其他
+爱奇艺 = type=cron,cronexp=0 9 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+吾爱破解 = type=cron,cronexp=0 8 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+百度签到 = type=cron,cronexp=1 0 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
+哔哩哔哩 = type=cron,cronexp=1 0 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js
+哔哩哔哩兑换 = type=cron,cronexp=30 1 8 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js
 
 [MITM]
-hostname = %APPEND% me-api.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com
+hostname = %APPEND% me-api.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com, *.bilibili.com,  iface?.iqiyi.com, c.tieba.baidu.com, tieba.baidu.com, www.52pojie.cn, *.bilibili.com
