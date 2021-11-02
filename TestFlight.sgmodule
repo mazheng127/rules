@@ -1,5 +1,5 @@
 #!name=脚本
-#!desc=TF重写脚本
+#!desc=TestFlight解除限制
 
 [MITM]
 hostname = testflight.apple.com
