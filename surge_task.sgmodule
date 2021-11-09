@@ -26,9 +26,11 @@
 签到领现金 = type=cron,cronexp=2 0-23/4 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_cash.js
 领京豆额外奖励 = type=cron,cronexp=10 7 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_bean_home.js
 京豆变动通知 = type=cron,cronexp=2 9 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_bean_change.js
+京东直播 = type=cron,cronexp=10-20/5 12 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_live.js
 京东健康社区0301版 = type=cron,cronexp=10 0-23/4 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_health.js
 京东健康社区收能量0301版 = type=cron,cronexp=5-45/20 * * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_health_collect.js
 京东幸运大转盘0301版 = type=cron,cronexp=4 10 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_market_lottery.js
+京东省钱大赢家之翻翻乐0301版 = type=cron,cronexp=20 * * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_big_winner.js
 京东特权值 = type=cron,cronexp=5 8 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js
 #其他
 爱奇艺 = type=cron,cronexp=0 9 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
