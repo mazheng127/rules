@@ -40,4 +40,4 @@
 哔哩哔哩兑换 = type=cron,cronexp=30 1 8 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js
 
 [MITM]
-hostname = %APPEND% me-api.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com, *.bilibili.com,  iface?.iqiyi.com, c.tieba.baidu.com, tieba.baidu.com, www.52pojie.cn, *.bilibili.com, *.youth.cn
+hostname = %APPEND% me-api.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com, *.bilibili.com,  iface?.iqiyi.com, c.tieba.baidu.com, tieba.baidu.com, www.52pojie.cn, *.bilibili.com
