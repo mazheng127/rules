@@ -1,0 +1,8 @@
+#!name=机场信息面板
+#!desc=surge4 机场信息面板
+
+[Script]
+Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=[https://suc.youku1.xyz/sub?target=surge&ver=4&url=https%3A%2F%2Fsubscribe.a9b.top%2Flink%2Fk9didRqLxjiaCjI4%3Fsub%3D2&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_Netflix.ini&emoji=true&list=true&tfo=false&scv=false&fdn=false&sort=false]&reset_day=6&title=速蛙云&icon=bonjour&color=#007aff
+
+[Panel]
+Sub_info = script-name=Sub_info,update-interval=600
